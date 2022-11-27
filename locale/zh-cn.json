@@ -1,0 +1,20 @@
+{
+  "locate": {
+    "en": "English",
+    "zh-cn": "简体中文"
+  },
+  "title": {
+    "main": "戴兜的感谢名单"
+  },
+  "page": {
+    "summary": "<details><summary><b>我是戴兜，一位前端开发者。</b></summary><div class=\"collapse-wrapper\"><br><p><b>最近在维护：</b><ul><li><a href=\"https://github.com/daidr/paimon-webext\"target=\"_blank\">派蒙浏览器扩展</a> - 在浏览器中快捷查看原神游戏数据</li><li><a href=\"https://github.com/GHAuth-Team/ghauth\"target=\"_blank\">GHAuth</a> - 一个轻量的MC Yggdrasil验证端实现</li></ul></p><p><b>最近写的小工具：</b><ul><li><a href=\"https://tb.daidr.me\"target=\"_blank\">真值表生成器</a> - 根据逻辑表达式一键生成真值表</li><li><a href=\"https://dt.daidr.me\"target=\"_blank\">双色调烘焙师</a> - 快速生成双色调风格的图片</li></ul></p><p><b>最近参与开发了：</b><ul><li><a href=\"https://www.fastmirror.net\"target=\"_blank\">无极镜像(前端)</a> - 完全免费的MineCraft服务端镜像站</li><li><a href=\"https://modpack.daidr.me\"target=\"_blank\">MC模组聚合(前端)</a> - 根据模组筛选符合条件的CurseForge整合包</li></ul></p></details>",
+    "platform": {
+      "patreon": "Patreon",
+      "afdian": "爱发电"
+    },
+    "links": {
+      "protips": "给我一点支持:"
+    },
+    "error": "数据加载失败"
+  }
+}

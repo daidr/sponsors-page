@@ -1,0 +1,20 @@
+{
+  "locate": {
+    "en": "English",
+    "zh-cn": "简体中文"
+  },
+  "title": {
+    "main": "DaiDR's Sponsors"
+  },
+  "page": {
+    "summary": "<details><summary><b>I'm DaiDR, a front-end developer.</b></summary><br><p><b>I'm maintaining:</b><ul><li><a href=\"https://github.com/daidr/paimon-webext\"target=\"_blank\">Paimon-WebExt</a> - Track Genshin Impact in-game stats in your browser</li><li><a href=\"https://github.com/GHAuth-Team/ghauth\"target=\"_blank\">GHAuth</a> - A lightweight implementation of the Minecraft Yggdrasil verification service</li></ul></p><p><b>I'm developing:</b><ul><li><a href=\"https://tb.daidr.me\" target=\"_blank\">Truth Table Generator</a> - One-click generation of truth tables based on logical expressions</li><li><a href=\"https://dt.daidr.me\" target=\"_blank\">DuotuneCook</a> - Generating duotone style images in seconds</li></ul></p><p><b>I'm contributing to:</b><ul><li><a href=\"https://www.fastmirror.net\"target=\"_blank\">FastMirror(FE)</a> - Minecraft server core mirror website(totally free)</li><li><a href=\"https://modpack.daidr.me\"target=\"_blank\">Modpack Hub(FE)</a> - Filter eligible CurseForge modpacks by mods list</li></ul></p></details>",
+    "platform": {
+      "patreon": "Patreon",
+      "afdian": "Afdian"
+    },
+    "links": {
+      "protips": "Give me a bit of support:"
+    },
+    "error": "Failed to load data"
+  }
+}
