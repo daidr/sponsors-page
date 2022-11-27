@@ -23,11 +23,17 @@ const platformUnit = {
   "patreon": "$"
 };
 
+const notMyself = (item) => {
+  return item.name !== "戴兜" && item.name.toLowerCase() !== "daidr";
+};
+
 const sponsorData = ref({});
 
 onMounted(async () => {
   try {
     const data = await fetch(ENV_BASE_URL).then((res) => res.json());
+    data.afdian = data.afdian.filter(notMyself);
+    data.patreon = data.patreon.filter(notMyself);
     sponsorData.value = data
     status.value = "success";
   } catch (error) {
