@@ -52,8 +52,6 @@ onMounted(async () => {
         <div v-html="t('page.summary')"></div>
         <br>
         <div class="links-wrapper">
-          {{ t('page.links.protips') }}
-          &nbsp;
           <div class="links">
             <a href="https://www.patreon.com/daidr/membership" target="_blank" rel="noopener noreferrer">{{
                 t('page.platform.patreon')
@@ -176,7 +174,7 @@ onMounted(async () => {
         .avatar {
           @apply bg-cover;
           @apply rounded-lg;
-          @apply w-12 h-12;
+          @apply "w-12 h-12 md:(w-14 h-14)";
           @apply opacity-70;
         }
       }
@@ -198,7 +196,7 @@ onMounted(async () => {
       }
 
       .right {
-        @apply flex items-center text-lg;
+        @apply flex items-center text-base md: text-lg;
       }
     }
 
